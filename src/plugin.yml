@@ -1,0 +1,7 @@
+name: Cpurge
+main: cpurge.main.Main
+author: Schirbak
+version: 0.1
+commands:
+    cpg:
+        aliases: [cpurge]

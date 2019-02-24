@@ -1,0 +1,17 @@
+#
+# [Cpurge] - [Config]
+#
+
+messages:
+  warning: "Нажмите [ЛКМ] по столбу, чтобы отменить"
+  barWarning: "Построенный столб будет разрушен через минуту"
+  postSaved: "Разрушение отменено"
+  barPostSaved: "Разрушение отменено"
+  postRemoved: "Столб был разрушен"
+  barPostRemoved: "Столб был разрушен"
+settings:
+  minHeight: 5
+  removeTimeout: 60
+  forgetTimeout: 300
+  disableOnWorlds:
+  - world1
