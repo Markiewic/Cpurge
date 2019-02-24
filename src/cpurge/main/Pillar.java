@@ -93,7 +93,6 @@ class Pillar
         if (height == ConfigData.settings_minHeight)
         {
             if (ConfigData.messages_warning.length() != 0) owner.sendMessage(ConfigData.messages_warning);
-            if (ConfigData.messages_barWarning.length() != 0) Main.sendActionBarMessage(owner, ConfigData.messages_barWarning);
         }
     }
 
@@ -108,14 +107,12 @@ class Pillar
             block.setType(Material.AIR);
         }
         if (ConfigData.messages_postRemoved.length() != 0) owner.sendMessage(ConfigData.messages_postRemoved);
-        if (ConfigData.messages_barPostRemoved.length() != 0) Main.sendActionBarMessage(owner, ConfigData.messages_barPostRemoved);
     }
 
     void save()
     {
         blockList.clear();
         if (ConfigData.messages_postSaved.length() != 0) owner.sendMessage(ConfigData.messages_postSaved);
-        if (ConfigData.messages_barPostSaved.length() != 0) Main.sendActionBarMessage(owner, ConfigData.messages_barPostSaved);
     }
 
     int getHeight()

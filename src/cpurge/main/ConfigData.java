@@ -19,11 +19,8 @@ class ConfigData
     static void reload()
     {
         messages_warning = Main.colorize(Main.config.getString("messages.warning"));
-        messages_barWarning = Main.colorize(Main.config.getString("messages.barWarning"));
         messages_postSaved = Main.colorize(Main.config.getString("messages.postSaved"));
-        messages_barPostSaved = Main.colorize(Main.config.getString("messages.barPostSaved"));
         messages_postRemoved = Main.colorize(Main.config.getString("messages.postRemoved"));
-        messages_barPostRemoved = Main.colorize(Main.config.getString("messages.barPostRemoved"));
         settings_minHeight = Main.config.getInt("settings.minHeight");
         settings_removeTimeout = Main.config.getInt("settings.removeTimeout");
         settings_forgerTimeout = Main.config.getInt("settings.forgerTimeout");
